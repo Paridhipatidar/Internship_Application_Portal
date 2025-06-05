@@ -1,0 +1,28 @@
+package com.practice.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.practice.service.UserService;
+
+@Controller
+public class HomeController {
+
+    public final UserService userService;
+
+    public HomeController(UserService userService) {
+        this.userService = userService;
+    }
+
+    @RequestMapping("/")
+    public String home() {
+        return "home"; // this maps to home.jsp
+    }
+
+    @RequestMapping("/createUser")
+    public String registerUser() {
+    	String msg = userService.saveUser();
+    	System.out.println(msg);
+        return "success"; // this maps to success.jsp
+    }
+}

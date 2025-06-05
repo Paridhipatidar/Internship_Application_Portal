@@ -1,0 +1,34 @@
+
+spring.application.name=Backend
+
+
+spring.datasource.url=${DB_URL}
+spring.datasource.username=${DB_USERNAME}
+spring.datasource.password=${DB_PASSWORD}
+
+#will create database table automatically 
+#spring.jpa.hibernate.ddl-auto=update 
+spring.jpa.hibernate.ddl-auto=validate 
+
+
+# Sender Gmail credentials
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+
+<<<<<<< HEAD
+spring.mail.username=your_gmail
+spring.mail.password=your_password
+=======
+spring.mail.username=${EMAIL_USERNAME}
+spring.mail.password=${EMAIL_PASSWORD}
+>>>>>>> 353d5563c3bf03f527e1897a4be2b40fa7fc7fdd
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
+spring.mail.properties.mail.smtp.starttls.required=true
+spring.mail.protocol=smtp
+# Super admin email (the recipient)
+<<<<<<< HEAD
+super.admin.email=superadmin@gmail.com
+=======
+super.admin.email=paridhipatida03@gmail.com
+>>>>>>> 353d5563c3bf03f527e1897a4be2b40fa7fc7fdd

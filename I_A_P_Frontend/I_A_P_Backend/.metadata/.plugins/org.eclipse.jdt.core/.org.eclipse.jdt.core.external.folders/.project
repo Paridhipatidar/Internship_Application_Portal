@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>.org.eclipse.jdt.core.external.folders</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>.link4</name>
+			<type>2</type>
+			<location>C:/sts-4.30.0/plugins/com.github.jnr.jffi.native_1.3.13.v20240215-1616</location>
+		</link>
+		<link>
+			<name>.link5</name>
+			<type>2</type>
+			<location>C:/sts-4.30.0/plugins/com.github.jnr.jffi.native_1.3.13.v20240215-1616/jni</location>
+		</link>
+		<link>
+			<name>.link6</name>
+			<type>2</type>
+			<location>C:/sts-4.30.0/plugins/org.eclipse.m2e.maven.runtime_3.9.900.20250220-2013</location>
+		</link>
+	</linkedResources>
+</projectDescription>
